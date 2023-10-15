@@ -443,7 +443,7 @@ namespace Hired_Guns_3_Map_Editor
             LoadDefaultMap();
             ZLevel = 11;
             SetCoordsSelected(_coordsCursor);
-            SelectToggleButton.Checked = true;
+            SelectToggleButton.Checked = false;
 
             LoadConfig();
         }
